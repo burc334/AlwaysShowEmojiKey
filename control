@@ -1,6 +1,6 @@
 Package: com.burc334.alwaysshowemojikey
 Name: Always Show Emoji Key
-Version: 1.0.0
+Version: 1.0.1
 Architecture: iphoneos-arm64
 Description: Keeps the native emoji key visible and usable next to the spacebar on iOS 18.
 Depiction: https://burc334.github.io/AlwaysShowEmojiKey/

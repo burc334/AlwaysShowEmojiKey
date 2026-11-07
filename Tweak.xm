@@ -2,8 +2,6 @@
 #import <substrate.h>
 #import <objc/runtime.h>
 
-@class UIKBTree;
-
 @interface UIKeyboardLayoutStar : UIView
 - (BOOL)globeKeyDisplaysAsEmojiKey;
 - (BOOL)isAlphabeticPlane;
@@ -21,10 +19,6 @@
 - (void)setOverrideDisplayString:(NSString *)string;
 - (void)updateMoreAndInternationalKeysWithOptions:(int)options;
 - (NSString *)name;
-@end
-
-@interface UIKeyboardImpl : NSObject
-+ (instancetype)activeInstance;
 @end
 
 static id ASEKSharedInputModeController(void) {

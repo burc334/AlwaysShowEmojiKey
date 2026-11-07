@@ -1,109 +1,88 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="color-scheme" content="light dark">
-  <meta name="theme-color" content="#0F766E">
-  <meta name="description" content="Always Show Emoji Key is a rootless iOS 18 jailbreak tweak that keeps the native emoji key visible and usable next to the spacebar.">
-  <meta property="og:title" content="Always Show Emoji Key">
-  <meta property="og:description" content="Keep the native emoji key visible and usable next to the spacebar on iOS 18.">
-  <meta property="og:type" content="website">
-  <meta property="og:image" content="https://burc334.github.io/AlwaysShowEmojiKey/icon.png?v=1.0.0">
-  <title>Always Show Emoji Key</title>
-  <link rel="icon" href="icon.png?v=1.0.0">
-  <link rel="stylesheet" href="style.css">
-</head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="light dark" name="color-scheme"/>
+<meta content="#0F766E" name="theme-color"/>
+<meta content="Keep the native emoji key always visible beside the spacebar." name="description"/>
+<meta content="Always Show Emoji Key — rootless jailbreak tweak" property="og:title"/>
+<meta content="Keep the native emoji key always visible beside the spacebar." property="og:description"/>
+<meta content="website" property="og:type"/>
+<meta content="https://burc334.github.io/AlwaysShowEmojiKey/icon.png?v=1.0.1" property="og:image"/>
+<title>Always Show Emoji Key — rootless jailbreak tweak</title>
+<link href="icon.png?v=1.0.1" rel="icon"/>
+<link href="style.css?v=e1a887d9" rel="stylesheet"/>
+<meta content="https://burc334.github.io/AlwaysShowEmojiKey/" property="og:url"/></head>
 <body>
-  <main class="page">
-    <header class="hero">
-      <div class="hero-copy">
-      <p class="eyebrow">Rootless + RootHide</p>
-      <h1>Always Show Emoji Key</h1>
-      <p class="summary">Keep the native emoji key visible and usable next to the spacebar on iOS 18.</p>
-      <div class="meta">
-        <span>Version 1.0.0</span>
-        <span><code>com.burc334.alwaysshowemojikey</code></span>
-        <span>MIT</span>
-      </div>
-      </div>
-      <img class="hero-icon" src="icon.png?v=1.0.0" width="112" height="112" alt="Always Show Emoji Key icon">
-    </header>
-
-    <section class="card">
-      <h2>Compatibility</h2>
-      <table>
-        <thead>
-          <tr>
-            <th>Build</th>
-            <th>Architecture</th>
-            <th>Compatibility</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>RootHide</td>
-            <td><code>iphoneos-arm64e</code></td>
-            <td>Tested on iOS 18.4.1 (Dopamine 3, RootHide)</td>
-          </tr>
-          <tr>
-            <td>Rootless</td>
-            <td><code>iphoneos-arm64</code></td>
-            <td>Expected to work on iOS 18+ rootless jailbreaks</td>
-          </tr>
-        </tbody>
-      </table>
-      <p class="note">The tweak requires iOS 18.0 or later. The rootless build was not independently tested.</p>
-    </section>
-
-    <section class="card">
-      <h2>What it does</h2>
-      <ul>
-        <li>Keeps the native emoji key between <code>123</code> and the spacebar.</li>
-        <li>Lets the emoji key be tapped normally.</li>
-        <li>Uses the native keyboard keyplane and key views.</li>
-        <li>Does not use a custom key, overlay, or manual key placement.</li>
-        <li>Does not change the keyboard language list or the Emoji keyboard setting.</li>
-      </ul>
-    </section>
-
-    <section class="card">
-      <h2>How it works</h2>
-      <p>iOS 18 can merge the native international/emoji key into the <code>123</code> key. Always Show Emoji Key prevents that merge for the international key and lets the native keyplane lay out the keys separately. No preference pane is required.</p>
-    </section>
-
-    <section class="card">
-      <h2>Install</h2>
-      <ol>
-        <li>Download the matching deb:
-          <ul>
-            <li>RootHide: <code>com.burc334.alwaysshowemojikey_1.0.0_iphoneos-arm64e.deb</code></li>
-            <li>Rootless: <code>com.burc334.alwaysshowemojikey_1.0.0_iphoneos-arm64.deb</code></li>
-          </ul>
-        </li>
-        <li>Install with Sileo, Zebra, or Filza.</li>
-        <li>Respring if the keyboard does not reload automatically.</li>
-      </ol>
-    </section>
-
-    <section class="card">
-      <h2>Verification</h2>
-      <p>SHA-256 checksums are published in <code>SHA256SUMS.txt</code> with the GitHub release. Verify the downloaded deb before installing it.</p>
-    </section>
-
-    <section class="card">
-      <h2>Support</h2>
-      <p>Open an issue on the <a href="https://github.com/burc334/AlwaysShowEmojiKey/issues">GitHub repository</a>. Include your iOS version, jailbreak, device model, and Always Show Emoji Key version.</p>
-    </section>
-
-    <section class="card">
-      <h2>License</h2>
-      <p>MIT</p>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <p>Always Show Emoji Key · Rootless + RootHide</p>
-  </footer>
+<main class="page">
+<header class="hero">
+<div class="hero-copy">
+<p class="eyebrow">rootless + roothide</p>
+<h1>Always Show Emoji Key</h1>
+<p class="summary">Keep the native emoji key always visible beside the spacebar.</p>
+<div class="actions"><a class="button secondary" href="https://github.com/burc334/AlwaysShowEmojiKey">View source on GitHub</a></div><div class="meta">
+<span>Version 1.0.1</span>
+<span>MIT</span>
+</div>
+</div>
+<img alt="" class="hero-icon" height="112" src="icon.png?v=1.0.1" width="112"/>
+</header>
+<section class="card">
+<h2>Compatibility</h2>
+<table>
+<thead>
+<tr>
+<th scope="col">Build</th>
+<th scope="col">Architecture</th>
+<th scope="col">Compatibility</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>roothide</td>
+<td><code>iphoneos-arm64e</code></td>
+<td>Tested on iOS 18.4.1 (Dopamine 3, roothide)</td>
+</tr>
+<tr>
+<td>rootless</td>
+<td><code>iphoneos-arm64</code></td>
+<td>Expected to work on iOS 18+ rootless jailbreaks</td>
+</tr>
+</tbody>
+</table>
+<p class="note">The tweak requires iOS 18.0 or later. The rootless build was not independently tested.</p>
+</section>
+<section class="card">
+<h2>What it does</h2>
+<ul>
+<li>Keeps the native emoji key between <code>123</code> and the spacebar.</li>
+<li>Lets the emoji key be tapped normally.</li>
+<li>Uses the native keyboard keyplane and key views.</li>
+<li>Does not use a custom key, overlay, or manual key placement.</li>
+<li>Does not change the keyboard language list or the Emoji keyboard setting.</li>
+</ul>
+</section>
+<section class="card">
+<h2>How it works</h2>
+<p>iOS 18 can merge the native international/emoji key into the <code>123</code> key. Always Show Emoji Key prevents that merge for the international key and lets the native keyplane lay out the keys separately. No preference pane is required.</p>
+</section>
+<section class="card">
+<h2>Verification</h2>
+<p>SHA-256 checksums are published in <code>SHA256SUMS.txt</code> with the GitHub release.</p>
+</section>
+<section class="card">
+<h2>Support</h2>
+<p>Open an issue on the <a href="https://github.com/burc334/AlwaysShowEmojiKey/issues">GitHub repository</a>. Include your iOS version, jailbreak, device model, and Always Show Emoji Key version.</p>
+</section>
+<section class="card">
+<h2>License</h2>
+<p>MIT</p>
+</section>
+</main>
+<footer class="footer">
+<p>Always Show Emoji Key · rootless + roothide</p>
+</footer>
 </body>
 </html>

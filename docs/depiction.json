@@ -10,11 +10,11 @@
         {
           "class": "DepictionHeaderView",
           "title": "Always Show Emoji Key",
-          "subtitle": "Version 1.0.0"
+          "subtitle": "Version 1.0.1"
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Keep the native emoji key visible and usable next to the spacebar on iOS 18."
+          "markdown": "Keep the native emoji key always visible beside the spacebar."
         },
         {
           "class": "DepictionTableTextView",
@@ -24,17 +24,21 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.0.0"
+          "text": "1.0.1"
         },
         {
           "class": "DepictionTableTextView",
-          "title": "RootHide",
-          "text": "iphoneos-arm64e \u00b7 tested on iOS 18.4.1 (Dopamine 3)"
+          "title": "roothide",
+          "text": "iphoneos-arm64e · tested on iOS 18.4.1 (Dopamine 3)"
         },
         {
           "class": "DepictionTableTextView",
-          "title": "Rootless",
-          "text": "iphoneos-arm64 \u00b7 expected on iOS 18+ rootless jailbreaks"
+          "title": "rootless",
+          "text": "iphoneos-arm64 · expected on iOS 18+ rootless jailbreaks"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### Compatibility\n\nTested on iOS 18.4.1 (Dopamine 3, roothide). The rootless build is expected to work on iOS 18+ rootless jailbreaks. The tweak requires iOS 18.0 or later."
         },
         {
           "class": "DepictionMarkdownView",
@@ -46,20 +50,18 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "### Install\n\n1. Download the matching deb: RootHide (`iphoneos-arm64e`) or Rootless (`iphoneos-arm64`).\n2. Install with Sileo, Zebra, or Filza.\n3. Respring if the keyboard does not reload automatically."
-        },
-        {
-          "class": "DepictionMarkdownView",
-          "markdown": "### Verification\n\nSHA-256 checksums are published in `SHA256SUMS.txt` with the GitHub release. Verify the downloaded deb before installing it."
-        },
-        {
-          "class": "DepictionMarkdownView",
-          "markdown": "### Compatibility\n\nTested on iOS 18.4.1 (Dopamine 3, RootHide). The rootless build is expected to work on iOS 18+ rootless jailbreaks. The tweak requires iOS 18.0 or later."
+          "markdown": "### Verification\n\nSHA-256 checksums are published in `SHA256SUMS.txt` with the GitHub release."
         },
         {
           "class": "DepictionTableTextView",
           "title": "License",
           "text": "MIT"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "View source on GitHub",
+          "action": "https://github.com/burc334/AlwaysShowEmojiKey",
+          "openExternal": true
         }
       ]
     },
@@ -69,7 +71,7 @@
       "views": [
         {
           "class": "DepictionMarkdownView",
-          "markdown": "### 1.0.0\n\n- Initial release.\n- Keeps the native emoji key visible and usable next to the spacebar.\n- Uses the native keyplane without custom keys or overlays.\n- Rootless and RootHide packages."
+          "markdown": "### 1.0.1\n\n- Internal cleanup only; no user-facing behavior changes.\n\n### 1.0.0\n\n- Initial release.\n- Keeps the native emoji key visible and usable next to the spacebar.\n- Uses the native keyplane without custom keys or overlays.\n- rootless and roothide packages."
         }
       ]
     }
