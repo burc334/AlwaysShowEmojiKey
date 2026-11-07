@@ -1,0 +1,10 @@
+.theos/
+packages/
+builds/
+obj/
+build*.log
+roothide.log
+*.log
+*.deb
+*.dSYM
+.DS_Store

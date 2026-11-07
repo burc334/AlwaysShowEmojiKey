@@ -1,0 +1,77 @@
+{
+  "class": "DepictionTabView",
+  "minVersion": "0.1",
+  "tintColor": "#0F766E",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "Details",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "Always Show Emoji Key",
+          "subtitle": "Version 1.0.0"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Keep the native emoji key visible and usable next to the spacebar on iOS 18."
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Package",
+          "text": "com.burc334.alwaysshowemojikey"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Version",
+          "text": "1.0.0"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "RootHide",
+          "text": "iphoneos-arm64e \u00b7 tested on iOS 18.4.1 (Dopamine 3)"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Rootless",
+          "text": "iphoneos-arm64 \u00b7 expected on iOS 18+ rootless jailbreaks"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### What it does\n\n- Keeps the native emoji key between `123` and the spacebar.\n- Lets the emoji key be tapped normally.\n- Uses the native keyboard keyplane and key views.\n- Does not use a custom key, overlay, or manual key placement.\n- Does not change the keyboard language list or the Emoji keyboard setting."
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### How it works\n\niOS 18 can merge the native international/emoji key into the `123` key. Always Show Emoji Key prevents that merge for the international key and lets the native keyplane lay out the keys separately. No preference pane is required."
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### Install\n\n1. Download the matching deb: RootHide (`iphoneos-arm64e`) or Rootless (`iphoneos-arm64`).\n2. Install with Sileo, Zebra, or Filza.\n3. Respring if the keyboard does not reload automatically."
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### Verification\n\nSHA-256 checksums are published in `SHA256SUMS.txt` with the GitHub release. Verify the downloaded deb before installing it."
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### Compatibility\n\nTested on iOS 18.4.1 (Dopamine 3, RootHide). The rootless build is expected to work on iOS 18+ rootless jailbreaks. The tweak requires iOS 18.0 or later."
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "License",
+          "text": "MIT"
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "Changelog",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### 1.0.0\n\n- Initial release.\n- Keeps the native emoji key visible and usable next to the spacebar.\n- Uses the native keyplane without custom keys or overlays.\n- Rootless and RootHide packages."
+        }
+      ]
+    }
+  ]
+}

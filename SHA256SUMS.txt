@@ -1,0 +1,2 @@
+21b797488337dc873366f7e0f190c0a8fa338755c0ef249d5b27b77357e1b12d  com.burc334.alwaysshowemojikey_1.0.0_iphoneos-arm64.deb
+e52a83fea5101281252cdb723b5feee132beaca33d81821c22bec647a48352cc  com.burc334.alwaysshowemojikey_1.0.0_iphoneos-arm64e.deb
